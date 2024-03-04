@@ -121,6 +121,7 @@ figure{
     margin: auto;
     text-align: center;
     
+    
 }
 figure img{
     width: 100%;
@@ -133,12 +134,17 @@ figure img{
     cursor: pointer; 
 }
 
+
 figure:hover img{
 transform: scale(1.1);
 }
 p{
     justify-content: center;
 } 
+
+.img-grid{
+    height: 440px;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
