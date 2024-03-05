@@ -1,4 +1,3 @@
-/*BASE STYLE*/
 *{
     box-sizing: border-box;
 }
@@ -14,67 +13,80 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+a img{
+    width: 80px;
+    margin-right: 100%;
+}
+
 .container{
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
+    width: 900px;
     margin: auto;
+    padding: 50px;
+}
+nav{
+    height: 200px;
+    background-color:burlywood;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px ;
+}
+
+#sect1, #sect4, #sect7{
+    background-color: rgb(216, 233, 122);
+    height: 200px;
+}
+#sect2, #sect5, #sect8{
+    background-color:cadetblue;
+    height: 200px;
+}
+#sect3, #sect6, #sect9{
+    background-color: darksalmon;
+    height: 200px;
 }
 
 header{
-    background-color: #6c757d;
-    height: 200px;
-}
-
-nav{
-    background-color: #ced4da;
-    height: 250px;
-    display: flex;
-    width: 1200px;
-}
-.nav-1,.nav-2, .nav-3{
-    width: 33.33%;
-}
-.nav-2{
-    background-color: #99582a;
-}
-.section-1{
-    background-color: #b08968;
-    height: 150px;
-    width: 1200px;
-    display: flex;
-}
-.sec-2{
-    background-color: #ede0d4;
-    width: 600px;
-    height: 150px;
-}
-.section-2{
-    background-color: rgb(232, 190, 155);
     height: 300px;
-    width: 1200px;
-    display: flex;
-    flex-grow: 1;
-}
-aside{
-    
-    background-color: coral;
-    width: 200px;
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 600px 300px;
+
 }
 main{
-    flex: 1;
-    width: 200px;
-    background-color: rgb(232, 190, 155);
-
-}
-.section-3{
-    background-color: #000022;
-    height: 200px;
-}
-.section-4{
-    background-color: rgb(232, 190, 155);
+    background-color: bisque;
     height: 300px;
-    width: 1200px;
-    display: flex;
-    flex-grow: 1;
+}
+aside{
+    height: 300px;
+    background-color: rgb(97, 58, 26);
+}
+.info{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 400px 500px;
+}
+.art1{
+    height: 400px;
+    background-color: rgb(95, 201, 174);
+}
+.art2{
+    height: 400px;
+    background-color: rgb(2, 71, 71);
+}
+
+.info2{
+    height: 200px;
+    width: 900px;
+    background-color: blue;
+}
+.info3{
+    height: 150px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+#sec1, #sec3{
+    height: 150px;
+    background-color: rgb(95, 201, 174);
+}
+#sec2{
+    height: 150px;
+    background-color: rgb(2, 71, 71);
 }

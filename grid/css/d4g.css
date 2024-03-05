@@ -1,4 +1,3 @@
-/*BASE STYLE*/
 *{
     box-sizing: border-box;
 }
@@ -14,67 +13,69 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+a img{
+    width: 80px;
+    margin-right: 100%;
+}
+
 .container{
     width: 1200px;
-    display: flex;
-    flex-direction: column;
     margin: auto;
+    padding: 50px;
 }
-
 header{
-    background-color: #6c757d;
-    height: 200px;
-}
-
-nav{
-    background-color: #ced4da;
     height: 250px;
-    display: flex;
-    width: 1200px;
+    background-color: chocolate;
 }
-.nav-1,.nav-2, .nav-3{
-    width: 33.33%;
+nav{
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
-.nav-2{
-    background-color: #99582a;
+#sect1, #sect2, #sect3{
+    height: 100px;
 }
-.section-1{
-    background-color: #b08968;
-    height: 150px;
-    width: 1200px;
-    display: flex;
+#sect1{
+background-color: darksalmon;
 }
-.sec-2{
-    background-color: #ede0d4;
-    width: 600px;
-    height: 150px;
+#sect2{
+    background-color:cadetblue;
 }
-.section-2{
-    background-color: rgb(232, 190, 155);
-    height: 300px;
-    width: 1200px;
-    display: flex;
-    flex-grow: 1;
+#sect3{
+    background-color: darksalmon;
 }
-aside{
-    
-    background-color: coral;
-    width: 200px;
+
+.info{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
 main{
-    flex: 1;
-    width: 200px;
-    background-color: rgb(232, 190, 155);
+    background-color: rgb(97, 58, 26);
+    height: 500px;
+}
+
+aside{
+    height: 500px;
+   background-color: rgb(179, 144, 116);
 
 }
-.section-3{
-    background-color: #000022;
-    height: 200px;
+.section-end{
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.section-4{
-    background-color: rgb(232, 190, 155);
-    height: 300px;
-    width: 1200px;
-    display: flex;
-    flex-grow: 1;
+#s1, #s3, #s5{
+    background-color: darkcyan;
+    height: 250px;
+}
+#s2, #s4, #s6{
+    background-color:lightsteelblue;
+    height: 250px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(65, 62, 62);
 }
