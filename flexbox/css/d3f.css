@@ -22,12 +22,12 @@ body{
 }
 
 header{
-    background-color: rgb(27, 27, 27);
+    background-color: #74A4BC;
     height: 20%;
 }
 #content{
     height: 50%;
-    background-color: antiquewhite;
+    background-color: #B9BBBB;
     display: flex;
     
 } 
@@ -44,11 +44,11 @@ header{
 }
 aside{
     flex: 1;
-    background-color: cadetblue;
+    background-color:#FF3A20;
     height: 50%;
 }
 nav{
-    background-color: rgb(250, 224, 184);
+    background-color: rgb(90, 145, 218);
     height: 50%;
     
     
@@ -68,7 +68,7 @@ nav{
     width: 200px;
 } 
 .article-2{
-    background-color: rgb(90, 145, 218);
+    background-color: #FF3A20;
     width: 25%;
 } 
 .article-4{

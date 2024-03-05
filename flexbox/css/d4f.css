@@ -21,24 +21,24 @@ body{
 }
 
 header{
-    background-color: yellow;
+    background-color: #e5989b;
     height: 250px;
 }
 
 nav{
-    background-color: rgb(250, 224, 184);
+    background-color: #6d6875;
     height: 100px;
     display: flex;
 }
 
 main{
-    background-color: rgb(236, 158, 85);
+    background-color: #ffb4a2;
     height: 500px;
     display: flex;
 }
 
 #section-end{
-    background-color:rgb(166, 243, 237) ;
+    background-color:rgb(143, 165, 163) ;
     height: 250px;
     width: 1200px;
     display: flex;
@@ -51,14 +51,12 @@ footer{
 .nav-1, .nav-2, .nav-3, .nav-4{
     width: 33.33%;
 }
-.nav-1{
-    background-color: rgb(19, 179, 19);
-}
+
 .nav-2{
-    background-color: rgb(216, 153, 245);
+    background-color: #b5838d;
 }
 .nav-3{
-    background-color: rgb(0, 92, 128);
+    background-color: #6d6875;
 }
 
 #main-1, #main-2{
@@ -66,7 +64,7 @@ footer{
 }
 
 #main-1{
-    background-color: burlywood;
+    background-color: #ffcdb2;
 }
 
 .article-1,
@@ -78,11 +76,11 @@ footer{
     width: 200px;
 } 
 .article-2{
-    background-color: rgb(90, 145, 218);
+    background-color: #6d6875;
 } 
 .article-4{
-    background-color: rgb(90, 145, 218);
+    background-color:  #6d6875;
 } 
 .article-6{
-    background-color: rgb(90, 145, 218);
+    background-color:  #6d6875;
 }

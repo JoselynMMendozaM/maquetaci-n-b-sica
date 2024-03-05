@@ -1,6 +1,9 @@
 img{
-    width: 49%;
+    width: 20px;
+    
+    
 }
-.grid-img{
-    height: 565px;
+
+.img-flex{
+    height: 40px;
 }

@@ -18,11 +18,14 @@ header{
 }
 
 .row{
+
     display: flex;
     flex-wrap: wrap;
+    height: 300px;
 }
 aside{
     flex: 30px;
+    height: 300px;
     padding: 20px;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
@@ -116,35 +119,65 @@ aside img{
 
 
 /* CONTENT */
-figure{
-    width: 70%;
-    margin: auto;
+
+
+.galeria-port{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.imagen-port{
     text-align: center;
-    
-    
+    width: 35%;
+    height: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
-figure img{
+
+.imagen-port > img{
     width: 100%;
-    filter: drop-shadow(
-        0 0 10px rgba(24, 24, 24, 0.8)
-           
-    );
+    height: 100%;
     object-fit: cover;
-    transition: transform 0.8s;
-    cursor: pointer; 
+    display: block;
 }
 
-
-figure:hover img{
-transform: scale(1.1);
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
 p{
     justify-content: center;
 } 
 
-.img-grid{
-    height: 440px;
-}
 
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {

@@ -21,7 +21,7 @@ body{
 }
 
 header{
-    background-color: yellow;
+    background-color: #900C3F;
     height: 350px;
 }
 
@@ -36,26 +36,26 @@ nav{
     width: 25%;
 }
 .nav-1{
-    background-color: green;
+    background-color: #581845;
 }
 .nav-2{
-    background-color: rgb(216, 153, 245);
+    background-color: #FF5733;
 }
 .nav-3{
-    background-color: rgb(0, 92, 128);
+    background-color: #581845;
 }
 .nav-4{
-    background-color: rgb(52, 172, 219);
+    background-color: #FF5733;
 }
 
 .content{
-    background-color: rgb(170, 187, 156);
+    background-color: #DAF7A6;
     height: 500px;
     display: flex;
 }
 
 article{
-    background-color: #e6e5e5;
+    background-color: #FFC300;
     width: 500px;
 }
 .content-section{

@@ -14,20 +14,20 @@ body{
     text-align: center;
 }
 .container{
-    width: 900px;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
 header{
-    background-color: yellow;
+    background-color: #6c757d;
     height: 200px;
 }
 
 nav{
-    background-color: rgb(236, 158, 85);
-    height: 300px;
+    background-color: #ced4da;
+    height: 250px;
     display: flex;
     width: 1200px;
 }
@@ -35,5 +35,44 @@ nav{
     width: 33.33%;
 }
 .nav-2{
-    background-color: rgb(49, 131, 76);
+    background-color: #99582a;
+}
+.section-1{
+    background-color: #b08968;
+    height: 150px;
+    width: 1200px;
+    display: flex;
+}
+.sec-2{
+    background-color: #ede0d4;
+    width: 600px;
+}
+.section-2{
+    background-color: rgb(232, 190, 155);
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    flex-grow: 1;
+}
+aside{
+    
+    background-color: coral;
+    width: 200px;
+}
+main{
+    flex: 1;
+    width: 200px;
+    background-color: rgb(232, 190, 155);
+
+}
+.section-3{
+    background-color: #000022;
+    height: 200px;
+}
+.section-4{
+    background-color: rgb(232, 190, 155);
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    flex-grow: 1;
 }
