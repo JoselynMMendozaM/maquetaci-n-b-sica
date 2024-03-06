@@ -1,0 +1,100 @@
+a img{
+    width: 80px;
+    margin-right: 100%;
+}
+
+a{
+    color: aliceblue;
+    text-align: right;
+}
+
+/*PARA LA PRIMERA PÁGINA*/
+/* Barra de navegación */
+#barra-navegacion-firstpages {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #04051b;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+/* Botones de navegación */
+#siguiente-firstpages {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 45px;
+    justify-content: end;
+}
+
+
+/* Efecto hover en botones */
+#siguiente-firstpages:hover {
+    background-color: #505658;
+}
+
+/*PARA LAS SIGUIENTES PÁGINAS*/
+/* BARRA DE NAVEGACIÓN */
+#barra-navegacion {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #04051b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Botones de navegación */
+#atras, #siguiente {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+/* Efecto hover en botones */
+#atras:hover, #siguiente:hover {
+    background-color: #666;
+}
+/*PARA ÚLTIMA PÁGINA*/
+/* Barra de navegación */
+#barra-navegacion-endpages {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #04051b;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* Botones de navegación */
+#atras-endpages{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 45px;
+}
+
+/* Efecto hover en botones */
+#atras-endpages:hover {
+    background-color: #666;
+}

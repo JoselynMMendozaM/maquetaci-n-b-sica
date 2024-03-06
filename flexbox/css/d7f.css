@@ -19,8 +19,19 @@ body{
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: center;
+}
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
 }
 
+h1{
+    font-size: 300%;
+}
 
 
 nav{

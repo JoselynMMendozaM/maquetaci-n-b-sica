@@ -20,6 +20,17 @@ body{
     flex-direction: column;
     margin: auto;
 }
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
+}
 
 header{
     background-color: #6c757d;

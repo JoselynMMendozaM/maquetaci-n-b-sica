@@ -18,7 +18,20 @@ body{
 .container{
     text-align: center;
     margin: auto;
-    box-shadow: 0 0 10px  rgba(0, 0, 0, .2);;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+}
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
 }
 
 header{
@@ -27,7 +40,12 @@ header{
     width: 1440px;
     height: 350px;
     margin: auto;
+    display: flex;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    
 }
 .menu-container{
     background-color: #6F2DBD;
@@ -35,6 +53,9 @@ header{
     display: flex;
     height: 900px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
 }
 
 .row{
@@ -47,15 +68,24 @@ header{
 aside{
     background-color: #B8D0EB;
     flex: 15px;
+    display: flex;
     padding: 20px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
     height: 900px;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
 }
 .content-container{
     background-color: #B298DC;
     flex: 720px;
+    display: flex;
     padding: 20px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+
 }
 footer {
     margin: auto;
@@ -66,4 +96,7 @@ footer {
     text-align: center;
     padding: 10px;
     box-shadow: 0 0 10px  rgba(0, 0, 0, .2);
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
 }

@@ -13,9 +13,16 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-a img{
-    width: 80px;
-    margin-right: 100%;
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
 }
 
 .container{

@@ -21,6 +21,18 @@ body{
     margin: auto;
     height: 100vh; /*100vh=100% de la pantalla*/
 }
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
+}
+
 
 header{
     background-color: #74A4BC;
@@ -33,10 +45,15 @@ header{
     
 } 
 #main{
+    width: 75%;
     flex-grow: 3;
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    display: flex;
 }
 .right-1{
-    width: 1.5%;
+    width: 25%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -47,11 +64,18 @@ aside{
     flex: 1;
     background-color:#FF3A20;
     height: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: flex;
 }
 nav{
     background-color: rgb(90, 145, 218);
     height: 50%;
-    
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    display: flex;
     
 }
 

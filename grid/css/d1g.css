@@ -13,8 +13,17 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
 
-
+h1{
+    font-size: 300%;
+}
 .container{
     width: 1440px;
     margin: auto;
@@ -23,29 +32,52 @@ body{
 header{
     height: 350px;
     background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
 }
 nav{
     height: 900px;
     background-color:burlywood;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
+    color: #000022;
 }
 #info{
     height: 900px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    
 }
 
 main{
     background-color: bisque;
     height: 900px;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
+    color: #000022;
 }
 aside{
     height: 900px;
    background-color: rgb(97, 58, 26);
+   align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
 
 }
 footer{
     height: 50px;
     background-color: rgb(65, 62, 62);
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    display: grid;
 }
 
 

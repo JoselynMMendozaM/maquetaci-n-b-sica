@@ -17,21 +17,42 @@ a img{
     width: 80px;
     margin-right: 100%;
 }
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
+}
 .container{
     width: 100%;
     height: 100vh;
     margin: auto;
-    padding: 50px;
+
     display: grid;
-    grid-template-rows: 20% 25% 25% 20% 10%;
-    grid-template-areas: 
+    grid-template-rows: 10% 20% 25% 25% 20% 10% 5%;
+    grid-template-areas:
+        'btn name name name' 
         'enc enc enc enc'
         'cont cont cont men'
         'cont cont cont sesion'
         'art1 art2 art3 art4'
         'pie pie pie pie'
+        'brn brn brn brn'
         ;
 }
+.btn-regresar{
+    grid-area: btn;
+}
+h1{
+    grid-area: name;
+    grid-column: 1/ span 4;
+}
+
 header{
     grid-area: enc;
     
@@ -40,16 +61,26 @@ header{
 main{
     grid-area: cont;
     background-color: grey;
+    align-items: center;
+    justify-content: center;
+    font-size: 900%;
+    display: grid;
 }
 nav{
     grid-area: men;
     background-color: aquamarine;
-    
+    align-items: center;
+    justify-content: center;
+    font-size: 500%;
+    display: grid;
 }
 aside{
     grid-area: sesion;
     background-color: cadetblue;
-   
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    display: grid;
 }
 #art1{
     grid-area: art1;
@@ -71,4 +102,39 @@ aside{
 footer{
     grid-area: pie;
     background-color: antiquewhite;
+}
+/* BARRA DE NAVEGACIÓN */
+#barra-navegacion {
+    grid-area: brn;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    align-items: center;
+    
+    
+}
+
+/* Botones de navegación */
+#atras, #siguiente {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 45px;
+    
+}
+#atras {
+    margin: 0 2250px 0 auto;
+}
+ 
+#siguiente {
+  margin: 0 auto 0 10px;
+}
+
+/* Efecto hover en botones */
+#atras:hover, #siguiente:hover {
+    background-color: #666;
 }

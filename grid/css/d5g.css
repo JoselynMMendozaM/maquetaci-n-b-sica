@@ -13,9 +13,16 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-a img{
-    width: 80px;
-    margin-right: 100%;
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
 }
 .container{
     padding: 50px;
@@ -25,10 +32,18 @@ a img{
 header{
     height: 400px;
     background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
 }
 nav{
     height: 50px;
     background-color:burlywood;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    display: grid;
 }
 #info{
     height: 250px;
@@ -37,6 +52,10 @@ nav{
 }
 #mision, #vision, #valores{
     height: 250px;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
 }
 #mision{
 background-color:chartreuse;
@@ -50,6 +69,11 @@ background-color: darkolivegreen;
 main{
     background-color: bisque;
     height: 800px;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
+    color: #000022;
 }
 #imagen{
     height: 240px;
@@ -67,7 +91,12 @@ main{
 }
 
 footer{
-    height: 25px;
+    height: 50px;
     background-color: darkgray;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    display: grid;
+    color: #000022;
 }
 

@@ -13,10 +13,18 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-a img{
-    width: 80px;
-    margin-right: 100%;
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
 }
+
+h1{
+    font-size: 300%;
+}
+
 .container{
     width: 1000px;
     margin: auto;
@@ -25,6 +33,10 @@ a img{
 header{
     height: 350px;
     background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
 }
 nav{
     height: 125px;
@@ -34,6 +46,10 @@ nav{
 }
 #sect1, #sect2, #sect3, #sect4{
     height: 125px;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    display: grid;
 }
 #sect1{
 background-color: darksalmon;
@@ -56,17 +72,34 @@ background-color: darksalmon;
 #content{
     background-color: rgb(97, 58, 26);
     height: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    display: grid;
 }
 article{
     background-color: bisque;
     height: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 400%;
+    display: grid;
+    color: #000022;
 }
 aside{
     height: 500px;
    background-color: rgb(97, 58, 26);
+   align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    display: grid;
 
 }
 footer{
     height: 50px;
     background-color: rgb(65, 62, 62);
+    align-items: center;
+    justify-content: center;
+    font-size: 250%;
+    display: grid;
 }

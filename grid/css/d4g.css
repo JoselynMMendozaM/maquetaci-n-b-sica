@@ -13,9 +13,16 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
-a img{
-    width: 80px;
-    margin-right: 100%;
+#encabezado{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    gap: 40%;
+}
+
+h1{
+    font-size: 300%;
 }
 
 .container{
@@ -34,6 +41,10 @@ nav{
 }
 #sect1, #sect2, #sect3{
     height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 300%;
+    display: grid;
 }
 #sect1{
 background-color: darksalmon;
