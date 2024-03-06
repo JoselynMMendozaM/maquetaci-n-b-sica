@@ -38,10 +38,7 @@ aside img{
     filter: drop-shadow(
         0 0 10px  rgba(245, 245, 245, 0.342));  
 }
-.content-container{
-    flex: 70%;
-    padding: 20px;
-}
+
 
 /* HEADER */
 
@@ -135,9 +132,8 @@ aside img{
 
 .imagen-port{
     text-align: center;
-    width: 35%;
-    height: 50%;
-    margin-bottom: 10px;
+    height: 80%;
+    margin-bottom: 50px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -289,6 +285,16 @@ p{
        
     }
 
+}
+@media screen and (max-width: 968px){
+    .banner-container {
+        padding: 5px;
+    }
+    .banner-container h1{
+        font-weight: 300;
+        padding:  25px 5px;
+        font-size: 38px;
+    }
 }
 @media screen and (max-width: 425px){
     .banner-container {
